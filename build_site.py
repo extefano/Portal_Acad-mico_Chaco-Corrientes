@@ -1052,6 +1052,26 @@ for p in pages:
     url_to_local_file[orig_link + "/"] = local_filename
     p["filename"] = local_filename
 
+# Direct aliases for non-standard slugs in page content
+url_to_local_file["https://carreraschacocorrientes.wordpress.com/uncaus-universidad-nacional-del-chaco-austral"] = "universidad-nacional-del-chaco-austral-uncaus.html"
+url_to_local_file["https://carreraschacocorrientes.wordpress.com/uncaus-universidad-nacional-del-chaco-austral/"] = "universidad-nacional-del-chaco-austral-uncaus.html"
+url_to_local_file["https://carreraschacocorrientes.wordpress.com/facultad-de-odontologia-unne"] = "facultad-de-odontologia-unne.html"
+url_to_local_file["https://carreraschacocorrientes.wordpress.com/facultad-de-odontologia-unne/"] = "facultad-de-odontologia-unne.html"
+url_to_local_file["https://carreraschacocorrientes.wordpress.com/facultad-de-ciencias-veterinarias-unne"] = "facultad-de-ciencias-veterinarias-unne.html"
+url_to_local_file["https://carreraschacocorrientes.wordpress.com/facultad-de-ciencias-veterinarias-unne/"] = "facultad-de-ciencias-veterinarias-unne.html"
+url_to_local_file["https://carreraschacocorrientes.wordpress.com/facena-facultad-de-ciencias-exactas-y-naturales-y-agrimensura"] = "facena-facultad-de-ciencias-exactas-y-naturales-y-agrimensura.html"
+url_to_local_file["https://carreraschacocorrientes.wordpress.com/facena-facultad-de-ciencias-exactas-y-naturales-y-agrimensura/"] = "facena-facultad-de-ciencias-exactas-y-naturales-y-agrimensura.html"
+url_to_local_file["https://carreraschacocorrientes.wordpress.com/ingenieria-en-sistemasutn"] = "ingenieria-en-sistemasutn.html"
+url_to_local_file["https://carreraschacocorrientes.wordpress.com/ingenieria-en-sistemasutn/"] = "ingenieria-en-sistemasutn.html"
+url_to_local_file["https://carreraschacocorrientes.wordpress.com/iem-ing-electro-mecanica"] = "iem-ing-electro-mecanica.html"
+url_to_local_file["https://carreraschacocorrientes.wordpress.com/iem-ing-electro-mecanica/"] = "iem-ing-electro-mecanica.html"
+url_to_local_file["https://carreraschacocorrientes.wordpress.com/iq-ingenieria-quimica"] = "iq-ingenieria-quimica.html"
+url_to_local_file["https://carreraschacocorrientes.wordpress.com/iq-ingenieria-quimica/"] = "iq-ingenieria-quimica.html"
+url_to_local_file["https://carreraschacocorrientes.wordpress.com/ing-mecatronica"] = "ing-mecatronica.html"
+url_to_local_file["https://carreraschacocorrientes.wordpress.com/ing-mecatronica/"] = "ing-mecatronica.html"
+url_to_local_file["https://carreraschacocorrientes.wordpress.com/licenciatura-en-adm-rural"] = "licenciatura-en-adm-rural.html"
+url_to_local_file["https://carreraschacocorrientes.wordpress.com/licenciatura-en-adm-rural/"] = "licenciatura-en-adm-rural.html"
+
 # Social Icons SVGs
 SOCIAL_SVGS = {
     "youtube": '<svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>',
