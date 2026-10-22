@@ -1,0 +1,13 @@
+# Carpetas duplicadas o de scraping temporal
+site/
+
+# Archivos de Python y sistema
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: carreras-chaco-corrientes
+    env: static
+    staticPublishPath: ./dist
+    pullRequestPreviewsEnabled: true
